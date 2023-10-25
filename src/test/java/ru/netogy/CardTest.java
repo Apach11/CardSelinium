@@ -16,10 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CardTest {
     private WebDriver driver;
 
-   @BeforeAll
-   public static void setupAll() {
-       WebDriverManager.chromedriver().setup();
-   }
+
 
     @BeforeEach
     void setUp() {
